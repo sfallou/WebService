@@ -1,0 +1,19 @@
+-----------------------------------------------
+Guide d'utilisation
+----------------------------------------------
+
+1) Copier le contenu du dossier "Deploiement Proxy" (Messagerie et Messagerie.war) dans "apache-tomcat-9.0.2/webapps"
+
+2) Se placer dans le dossier Serveur pour lancer le Serveur RPC. Dans le fichier "ChatRoom.java" se trouvent les infos 		pour compiler et lancer le serveur
+	NB: Eviter les ports 8080 et ceux susceptibles d'être utilisés par le système
+
+3) Aller dans le fichier "apache-tomcat-9.0.2/webapps/Messagerie/WEB-INF/classes/config.xml" et y mettre le nom des salons et des adresses/ports correspondant
+
+4) Lancer Tomcat en executant le fichier startup.sh ou startup.bat si on sous windows. Ce fichier se trouve dans 
+	"apache-tomcat-9.0.2/bin/"
+	NB: Le port d'écoute est par défaut 8080
+
+5) Lancer les clients (python et java) pour commencer le tchat.
+ 
+  -> Le lancement du client Python se fait avec python3 sur le fichier ClientChat.py
+  -> Le lancement du client Java se fait avec le fichier Client.java après compilation.(Voir ce fichier pour les infos de compilation)

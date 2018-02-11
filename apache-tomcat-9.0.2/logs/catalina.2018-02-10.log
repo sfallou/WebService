@@ -1,0 +1,43 @@
+10-Feb-2018 13:34:25.295 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.2
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 25 2017 21:08:02 UTC
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.2.0
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.13.3
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86_64
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/jre
+10-Feb-2018 13:34:25.299 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_111-b14
+10-Feb-2018 13:34:25.300 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Feb-2018 13:34:25.300 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sfallou/WebService/apache-tomcat-9.0.2
+10-Feb-2018 13:34:25.300 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sfallou/WebService/apache-tomcat-9.0.2
+10-Feb-2018 13:34:25.301 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sfallou/WebService/apache-tomcat-9.0.2/conf/logging.properties
+10-Feb-2018 13:34:25.301 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Feb-2018 13:34:25.301 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Feb-2018 13:34:25.302 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Feb-2018 13:34:25.302 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Feb-2018 13:34:25.302 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sfallou/WebService/apache-tomcat-9.0.2
+10-Feb-2018 13:34:25.302 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sfallou/WebService/apache-tomcat-9.0.2
+10-Feb-2018 13:34:25.302 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sfallou/WebService/apache-tomcat-9.0.2/temp
+10-Feb-2018 13:34:25.304 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/sfallou/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+10-Feb-2018 13:34:25.445 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Feb-2018 13:34:25.484 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Feb-2018 13:34:25.493 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Feb-2018 13:34:25.495 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Feb-2018 13:34:25.495 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 690 ms
+10-Feb-2018 13:34:25.526 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+10-Feb-2018 13:34:25.526 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.2
+10-Feb-2018 13:34:25.555 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Déploiement de l'archive [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/Messagerie.war] de l'application web
+10-Feb-2018 13:34:26.898 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Feb-2018 13:34:28.074 INFOS [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/Messagerie.war] has finished in [2 518] ms
+10-Feb-2018 13:34:28.075 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/docs] de l'application web
+10-Feb-2018 13:34:28.088 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/docs] has finished in [13] ms
+10-Feb-2018 13:34:28.089 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/manager] de l'application web
+10-Feb-2018 13:34:28.119 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/manager] has finished in [30] ms
+10-Feb-2018 13:34:28.120 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/examples] de l'application web
+10-Feb-2018 13:34:28.355 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/examples] has finished in [234] ms
+10-Feb-2018 13:34:28.355 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/ROOT] de l'application web
+10-Feb-2018 13:34:28.369 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/ROOT] has finished in [14] ms
+10-Feb-2018 13:34:28.369 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/host-manager] de l'application web
+10-Feb-2018 13:34:28.387 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/sfallou/WebService/apache-tomcat-9.0.2/webapps/host-manager] has finished in [18] ms
+10-Feb-2018 13:34:28.390 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Feb-2018 13:34:28.397 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Feb-2018 13:34:28.401 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 2905 ms
